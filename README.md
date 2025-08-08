@@ -21,9 +21,9 @@ It converts grayscale images into realistic color images using a CNN trained in 
 
 | Input (Grayscale) | Output (Predicted RGB) |
 |-------------------|------------------------|
-| ![input](examples/gray1.jpg) | ![output](examples/colorized1.jpg) |
-| ![input](examples/gray2_525863257_053333e612.jpg) | ![output](examples/colorized2.jpg) |
-| ![input](examples/gray_3_3364160101_c5e6c52b25.jpg) | ![output](examples/colorized3.jpg) |
+| ![input](examples/gray1.png) | ![output](examples/colorized1.png) |
+| ![input](examples/gray2.png) | ![output](examples/colorized2.png) |
+| ![input](examples/gray3.png) | ![output](examples/colorized3.png) |
 
 ---
 
