@@ -43,6 +43,6 @@ if __name__ == "__main__":
     ab_bins_path = "./weights/pts_in_hull.npy"
     quantizer = ColorQuantizer(ab_bins_path)
 
-    img = Image.open("./examples/image.jpg")
+    img = Image.open("./examples/gray_sample.jpg")
     img_np = np.array(img) 
     L_orig, img_out = colorize_image(img_np, model, quantizer, device)
