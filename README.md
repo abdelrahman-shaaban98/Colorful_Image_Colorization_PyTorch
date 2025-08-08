@@ -42,3 +42,4 @@ It converts grayscale images into realistic color images using a CNN trained in 
 ├── weights/class_weights.npy       # Class rebalancing weights
 ├── examples/                       # Example input/output images
 └── README.md
+```

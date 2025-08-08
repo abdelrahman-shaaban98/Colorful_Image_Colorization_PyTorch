@@ -1,4 +1,5 @@
 import os
+import sys
 import glob
 import numpy as np
 from PIL import Image
@@ -68,7 +69,8 @@ def generate_training_data(image_paths, l_channel_path="./data/l_channel", ab_ch
         
 
 if __name__ == "__main__":
-    image_paths = "./data/Flickr_8k/Images" 
+    # image_paths = "./data/Flickr_8k/Images" 
+    image_paths = sys.argv[1]
     image_paths = glob.glob(image_paths + "/*.jpg") 
     ab_bins_path = "./weights/pts_in_hull.npy"
     quantizer = ColorQuantizer(ab_bins_path)
